@@ -1,0 +1,17 @@
+{
+  "version": "2.0",
+  "name": "DifferentCase",
+  "id": "e81a31e9-6c75-4dbe-872c-b011b704285d",
+  "databaseType": "PostgreSql",
+  "schemas": [
+    "public"
+  ],
+  "development": {
+    "scriptsFolder": "./schema-model"
+  },
+  "deployment": {
+    "flywayConfFiles": [
+      "./flyway.conf"
+    ]
+  }
+}
